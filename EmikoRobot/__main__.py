@@ -469,15 +469,15 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="", url=""),
                  ],
                  [
-                    InlineKeyboardButton(text="", url=""),
-                    InlineKeyboardButton(text="", url=""),
-                 ],
-                 [
-                    InlineKeyboardButton(text="", url=""),
+                    InlineKeyboardButton(text="✗ BᵣₐyDₑₙ ✗", url="t.me/BrayDenXD"),
                     InlineKeyboardButton(text="", url=""),
                  ],
                  [
+                    InlineKeyboardButton(text="𓆩𝘼𝘼𝙆𝘼𝙎𝙃𓆪", url="t.me/akshhhxx"),
                     InlineKeyboardButton(text="", url=""),
+                 ],
+                 [
+                    InlineKeyboardButton(text="And you", url="tg://settings"),
                     InlineKeyboardButton(text="", url=""),
                  ],
                  [
