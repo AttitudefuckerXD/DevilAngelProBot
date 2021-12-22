@@ -81,28 +81,28 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/11b5922a33de9968cedfe.jpg)
+*Hᴇʏ Tʜᴇʀᴇ {} !*
+✪I Aᴍ 😈⃝ 𝙳ᴇᴠɪʟ✗✿‌᭄𝙰ɳɠɛƖ ➻❥✰༉࿐🧚‍♀️\n✪ Aᴅᴠᴀɴᴄᴇᴅ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Wɪᴛʜ Lᴏᴛs Oꜰ Fᴇᴀᴛᴜʀᴇs.
+
+✪ Bᴏᴛ Fᴏʀ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ & Pʀᴏᴛᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘs. 
+✪ `{}` *users, across* `{}` *chats.*
 ────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
-────────────────────────
-✪ Hit /help to see my available commands.
+[➼](https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg) Usᴇ /help Tᴏ Sᴇᴇ Aʟʟ Cᴏᴍᴍᴀɴᴅs.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Emiko Robot", callback_data="emiko_"),
+        InlineKeyboardButton(text="❓Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ Dᴇᴠɪʟ", callback_data="emiko_"),
         InlineKeyboardButton(
             text="Try inline!​​", switch_inline_query_current_chat=""
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Emiko To Your Group ➗", url="t.me/EmiexRobot?startgroup=new"),
+            text="➕ Aᴅᴅ Dᴇᴠɪʟ Tᴏ Uʀ Gʀᴏᴜᴘ ➕", url="t.me/EmiexRobot?startgroup=new"),
     ],
 ]
 
