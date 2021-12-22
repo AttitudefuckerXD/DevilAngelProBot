@@ -413,7 +413,7 @@ async def inuka(client, message):
     response = response.replace("I made myself", "I was Created by @excrybaby")
     response = response.replace(
             "Hi, my friend! Do you want me to tell you a joke?",
-            "Hello there I am Emiko...nice to meet u")
+            "Hello there I am 𝐃ᴇᴠɪʟ✗𝐀ɳɠɛƖ...nice to meet u")
     response = response.replace("Have the control right.", "@excrybaby is my owner.")
     response = response.replace(
             "Hi, my friend, what can I do for you today?",
