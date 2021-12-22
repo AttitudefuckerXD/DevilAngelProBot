@@ -108,7 +108,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ[💫](https://telegra.ph/file/1f5a5800522f299fbab80.jpg)."""
+ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪꜰɪᴄs ᴄᴏᴍᴍᴀɴᴅ[💫](https://telegra.ph/file/7a04e0d0eb064eccf275d.jpg)."""
 
 EMI_IMG = "https://telegra.ph/file/1f5a5800522f299fbab80.jpg"
 
