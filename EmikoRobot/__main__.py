@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Cʀᴇᴅɪᴛs", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="MᴜsɪᴄCᴏᴍᴍᴀɴᴅs", callback_data="source_"),
+                    InlineKeyboardButton(text="🔉MᴜsɪᴄPʟᴀʏᴇʀ", callback_data="source_"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙 Bᴀᴄᴋ", callback_data="emiko_back"),
@@ -445,7 +445,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Updates", url="https://t.me/tgcalls_Music_update"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                    InlineKeyboardButton(text="🔙 Back", callback_data="emiko_"),
                  
                  ]
                 ]
@@ -465,19 +465,19 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="𝗔𝖙𝖙𝖎𝖙𝖚𝖉𝖊 𝗸𝖎𝖓𝖌", url="t.me/Attitude_king_vj"),
                  ],
                  [
-                    InlineKeyboardButton(text="Aᴅᴍɪɴ's Hᴇʀᴇ", url="https://t.me/tgcalls_MusicXchat"),
+                    InlineKeyboardButton(text="𝐀𝐝𝐦𝐢𝐧'𝐬 𝐡𝐞𝐫𝐞", url="https://t.me/tgcalls_MusicXchat"),
                     
                  ],
                  [
-                    InlineKeyboardButton(text="✗ BᵣₐyDₑₙ ✗", url="t.me/BrayDenXD"),
+                    InlineKeyboardButton(text="𝐁𝐫𝐚𝐲𝐃𝐞𝐧", url="t.me/BrayDenXD"),
                     
                  ],
                  [
-                    InlineKeyboardButton(text="𓆩𝘼𝘼𝙆𝘼𝙎𝙃𓆪", url="t.me/akshhhxx"),
+                    InlineKeyboardButton(text="𝐀𝐤𝐚𝐬𝐡", url="t.me/akshhhxx"),
                     
                  ],
                  [
-                    InlineKeyboardButton(text="And you", url="tg://settings"),
+                    InlineKeyboardButton(text="𝐓𝐡𝐢𝐬 𝐩𝐞𝐫𝐬𝐨𝐧", url="tg://settings"),
                     
                  ],
                  [
