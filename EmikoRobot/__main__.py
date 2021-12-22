@@ -461,24 +461,24 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="", url=""),
+                    
                     InlineKeyboardButton(text="𝗔𝖙𝖙𝖎𝖙𝖚𝖉𝖊 𝗸𝖎𝖓𝖌", url="t.me/Attitude_king_vj"),
                  ],
                  [
                     InlineKeyboardButton(text="Aᴅᴍɪɴ's Hᴇʀᴇ", url="https://t.me/tgcalls_MusicXchat"),
-                    InlineKeyboardButton(text="", url=""),
+                    
                  ],
                  [
                     InlineKeyboardButton(text="✗ BᵣₐyDₑₙ ✗", url="t.me/BrayDenXD"),
-                    InlineKeyboardButton(text="", url=""),
+                    
                  ],
                  [
                     InlineKeyboardButton(text="𓆩𝘼𝘼𝙆𝘼𝙎𝙃𓆪", url="t.me/akshhhxx"),
-                    InlineKeyboardButton(text="", url=""),
+                    
                  ],
                  [
                     InlineKeyboardButton(text="And you", url="tg://settings"),
-                    InlineKeyboardButton(text="", url=""),
+                    
                  ],
                  [
                     InlineKeyboardButton(text="🔙 𝐁𝐚𝐜𝐤", callback_data="emiko_"),
