@@ -84,7 +84,7 @@ PM_START_TEXT = """
 
 *Hᴇʏ {} !*
 
-✪I Aᴍ 😈⃝ 𝙳ᴇᴠɪʟ✗✿‌᭄𝙰ɳɠɛƖ༉࿐\nAᴅᴠᴀɴᴄᴇᴅ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Wɪᴛʜ Lᴏᴛs Oꜰ Fᴇᴀᴛᴜʀᴇs.
+✪ I'ᴍ 😈⃝ 𝐃ᴇᴠɪʟ✗𝐀ɳɠɛƖ➻✰༉࿐🧚‍♀️\nAᴅᴠᴀɴᴄᴇᴅ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Wɪᴛʜ Lᴏᴛs Oꜰ Fᴇᴀᴛᴜʀᴇs.
 ✪ Bᴏᴛ Fᴏʀ Hᴇʟᴘ Yᴏᴜ Mᴀɴᴀɢᴇ & Pʀᴏᴛᴇᴄᴛ Yᴏᴜʀ Gʀᴏᴜᴘs. 
 ───────────────────────
 [➼](https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg) Usᴇ /help Tᴏ Sᴇᴇ Aʟʟ Cᴏᴍᴍᴀɴᴅs.
@@ -92,7 +92,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="❓Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="❓Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="Aʙᴏᴜᴛ Dᴇᴠɪʟ", callback_data="emiko_"),
