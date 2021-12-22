@@ -491,14 +491,14 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="๏›› This advance command for Musicplayer."
+            text="๏›› This advance command for Musicplayer Power by 𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ༉࿐"
             "\n\n๏ Command for admins only."
-            "\n • `/reload` - For refreshing the adminlist."
+            "\n • `/joinassistant` - invait assistant to ur group."
             "\n • `/pause` - To pause the playback."
             "\n • `/resume` - To resuming the playback You've paused."
             "\n • `/skip` - To skipping the player."
             "\n • `/end` - For end the playback."
-            "\n • `/musicplayer <on/off>` - Toggle for turn ON or turn OFF the musicplayer."
+            "\n • `/ping` - To see Bot alive."
             "\n\n๏ Command for all members."
             "\n • `/play` <query /reply audio> - Playing music via YouTube."
             "\n • `/playlist` - To playing a playlist of groups or your personal playlist",
@@ -724,7 +724,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="⚙️ Settings",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Emiko Robot Started!**
+                f"""**𝙳ᴇᴠɪʟ✗𝙰ɳɠɛƖ༉࿐ Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
