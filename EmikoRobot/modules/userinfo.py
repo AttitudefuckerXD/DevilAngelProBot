@@ -355,7 +355,7 @@ def info(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 "Health", url="https://t.me/tgcalls_Music_update/15"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "Disaster", url="https://t.me/tgcalls_Music_update/12")
                         ],
                     ]
                 ),
@@ -373,7 +373,7 @@ def info(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 "Health", url="https://t.me/tgcalls_Music_update/15"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "Disaster", url="https://t.me/tgcalls_Music_update/12")
                         ],
                     ]
                 ),
