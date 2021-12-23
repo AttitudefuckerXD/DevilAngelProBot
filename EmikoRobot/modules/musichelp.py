@@ -10,9 +10,9 @@ __help__ = """
 
 ❂ /auth - Add to authorized users.
 ❂ /unauth - Canceling or deleting from authorized users list.
-❂ /msettings - To open panel settings on musicplayer.
+❂ /settings - To open panel settings on musicplayer.
 ❂ /setadmin - To set all command only for admins.
-❂ /settings - Set Music quality.
+❂ /ping (or) /alive - test bot alive.
 ❂ /speedtest - To see speed of bot.
 
 NOTE : DON'T SPAMMING AT REQUEST SONG OR VIDEO...
