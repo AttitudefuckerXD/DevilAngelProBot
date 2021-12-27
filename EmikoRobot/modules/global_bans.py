@@ -542,10 +542,10 @@ __help__ = f"""
 ❂ `/antispam <on/off/yes/no>`*:*𝚆𝚒𝚕𝚕 𝚝𝚘𝚐𝚐𝚕𝚎 𝚘𝚞𝚛 𝚊𝚗𝚝𝚒𝚜𝚙𝚊𝚖 𝚝𝚎𝚌𝚑 𝚘𝚛 𝚛𝚎𝚝𝚞𝚛𝚗 𝚢𝚘𝚞𝚛 𝚌𝚞𝚛𝚛𝚎𝚗𝚝 𝚜𝚎𝚝𝚝𝚒𝚗𝚐𝚜.
 
 𝙰𝚗𝚝𝚒-𝚂𝚙𝚊𝚖, 𝚞𝚜𝚎𝚍 𝚋𝚢 𝚋𝚘𝚝 𝚍𝚎𝚟𝚜 𝚝𝚘 𝚋𝚊𝚗 𝚜𝚙𝚊𝚖𝚖𝚎𝚛𝚜 𝚊𝚌𝚛𝚘𝚜𝚜 𝚊𝚕𝚕 𝚐𝚛𝚘𝚞𝚙𝚜. 𝚃𝚑𝚒𝚜 𝚑𝚎𝚕𝚙𝚜 𝚙𝚛𝚘𝚝𝚎𝚌𝚝 \
-you and your groups by removing spam flooders as quickly as possible.
+𝚢𝚘𝚞 𝚊𝚗𝚍 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙𝚜 𝚋𝚢 𝚛𝚎𝚖𝚘𝚟𝚒𝚗𝚢𝚘𝚞𝚛𝚐 𝚜𝚙𝚊𝚖 𝚏𝚕𝚘𝚘𝚍𝚎𝚛𝚜 𝚊𝚜 𝚚𝚞𝚒𝚌𝚔𝚕𝚢 𝚊𝚜 𝚙𝚘𝚜𝚜𝚒𝚋𝚕𝚎.
 *Note:* Users can appeal gbans or report spammers at @{SUPPORT_CHAT}
 
-This also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
+ᴛʜɪs ᴀʟsᴏ ɪɴᴛᴇɢʀᴀᴛᴇs @spamwatch ᴀᴘɪ ᴛᴏ ʀᴇᴍᴏᴠᴇ sᴘᴀᴍᴍᴇʀs ᴀs ᴍᴜᴄʜ ᴀs ᴘᴏssɪʙʟᴇ ꜰʀᴏᴍ ʏᴏᴜʀ ᴄʜᴀᴛʀᴏᴏᴍ!
 *What is SpamWatch?*
 SpamWatch maintains a large constantly updated ban-list of spambots, trolls, bitcoin spammers and unsavoury characters[.](https://telegra.ph/file/f584b643c6f4be0b1de53.jpg)
 Constantly help banning spammers off from your group automatically So, you wont have to worry about spammers storming your group.
