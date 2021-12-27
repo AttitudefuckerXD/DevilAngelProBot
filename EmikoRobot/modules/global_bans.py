@@ -541,7 +541,7 @@ __help__ = f"""
 *Admins only:*
 ❂ `/antispam <on/off/yes/no>`*:*𝚆𝚒𝚕𝚕 𝚝𝚘𝚐𝚐𝚕𝚎 𝚘𝚞𝚛 𝚊𝚗𝚝𝚒𝚜𝚙𝚊𝚖 𝚝𝚎𝚌𝚑 𝚘𝚛 𝚛𝚎𝚝𝚞𝚛𝚗 𝚢𝚘𝚞𝚛 𝚌𝚞𝚛𝚛𝚎𝚗𝚝 𝚜𝚎𝚝𝚝𝚒𝚗𝚐𝚜.
 
-Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect \
+𝙰𝚗𝚝𝚒-𝚂𝚙𝚊𝚖, 𝚞𝚜𝚎𝚍 𝚋𝚢 𝚋𝚘𝚝 𝚍𝚎𝚟𝚜 𝚝𝚘 𝚋𝚊𝚗 𝚜𝚙𝚊𝚖𝚖𝚎𝚛𝚜 𝚊𝚌𝚛𝚘𝚜𝚜 𝚊𝚕𝚕 𝚐𝚛𝚘𝚞𝚙𝚜. 𝚃𝚑𝚒𝚜 𝚑𝚎𝚕𝚙𝚜 𝚙𝚛𝚘𝚝𝚎𝚌𝚝 \
 you and your groups by removing spam flooders as quickly as possible.
 *Note:* Users can appeal gbans or report spammers at @{SUPPORT_CHAT}
 
