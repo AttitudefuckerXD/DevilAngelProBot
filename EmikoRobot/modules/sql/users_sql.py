@@ -1,5 +1,7 @@
 import threading
 
+from sqlalchemy.sql.sqltypes import BigInteger
+
 from EmikoRobot import dispatcher
 from EmikoRobot.modules.sql import BASE, SESSION
 from sqlalchemy import (
@@ -10,7 +12,6 @@ from sqlalchemy import (
     UniqueConstraint,
     func,
 )
-from sqlalchemy.sql.sqltypes import BigInteger
 
 
 class Users(BASE):
@@ -130,7 +131,7 @@ def get_userid_by_name(username):
 
 def get_name_by_userid(user_id):
     try:
-        return SESSION.query(Users).get(Users.user_id == bigint(user_id)).first()
+        return SESSION.query(Users).get(Users.user_id == int(user_id)).first()
     finally:
         SESSION.close()
 
@@ -159,7 +160,7 @@ def get_all_users():
 def get_user_num_chats(user_id):
     try:
         return (
-            SESSION.query(ChatMembers).filter(ChatMembers.user == bigint(user_id)).count()
+            SESSION.query(ChatMembers).filter(ChatMembers.user == int(user_id)).count()
         )
     finally:
         SESSION.close()
@@ -168,7 +169,7 @@ def get_user_num_chats(user_id):
 def get_user_com_chats(user_id):
     try:
         chat_members = (
-            SESSION.query(ChatMembers).filter(ChatMembers.user == bigint(user_id)).all()
+            SESSION.query(ChatMembers).filter(ChatMembers.user == int(user_id)).all()
         )
         return [i.chat for i in chat_members]
     finally:
@@ -194,7 +195,9 @@ def migrate_chat(old_chat_id, new_chat_id):
         chat = SESSION.query(Chats).get(str(old_chat_id))
         if chat:
             chat.chat_id = str(new_chat_id)
-        SESSION.commit()
+            SESSION.add(chat)
+
+        SESSION.flush()
 
         chat_members = (
             SESSION.query(ChatMembers)
@@ -203,6 +206,8 @@ def migrate_chat(old_chat_id, new_chat_id):
         )
         for member in chat_members:
             member.chat = str(new_chat_id)
+            SESSION.add(member)
+
         SESSION.commit()
 
 
