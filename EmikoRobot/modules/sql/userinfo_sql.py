@@ -1,6 +1,7 @@
 import threading
+
 from EmikoRobot.modules.sql import BASE, SESSION
-from sqlalchemy import Column, UnicodeText
+from sqlalchemy import Column, Integer, UnicodeText
 from sqlalchemy.sql.sqltypes import BigInteger
 
 
@@ -73,3 +74,77 @@ def set_user_bio(user_id, bio):
 
         SESSION.add(userbio)
         SESSION.commit()
+
+
+
+
+
+
+   
+  
+    
+
+    
+        
+    
+
+    
+       
+
+
+
+
+ 
+   
+
+    
+        
+        
+
+   
+      
+
+
+
+
+
+
+
+
+
+
+  
+    
+        
+    
+
+
+
+    
+        
+        
+          
+      
+            
+        
+       
+
+
+
+ 
+    
+ 
+       
+    
+
+
+
+  
+        
+      
+            
+      
+            
+
+        
+
