@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/a01ef91bd802109bbcbc1.jpg">
+  <img src="">
 </p>
 
-<h4><p align="center"> DevilxAngeLBOT </p></h4>
+<h4><p align="center"> @EmikoxRobot </p></h4>
 
 <p align="center">Emiko Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
 
