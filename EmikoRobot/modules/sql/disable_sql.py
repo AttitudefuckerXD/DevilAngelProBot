@@ -45,6 +45,55 @@ def enable_command(chat_id, enable):
 
         if disabled:
             if enable in DISABLED.get(str(chat_id)):  # sanity check
+                
+import threading
+
+from sqlalchemy import Column, String, UnicodeText, distinct, func
+
+from EmikoRobot.modules.sql import BASE, SESSION
+
+
+class Disable(BASE):
+    __tablename__ = "disabled_commands"
+    chat_id = Column(String(14), primary_key=True)
+    command = Column(UnicodeText, primary_key=True)
+
+    def __init__(self, chat_id, command):
+        self.chat_id = chat_id
+        self.command = command
+
+    def __repr__(self):
+        return "Disabled cmd {} in {}".format(self.command, self.chat_id)
+
+
+Disable.__table__.create(checkfirst=True)
+DISABLE_INSERTION_LOCK = threading.RLock()
+
+DISABLED = {}
+
+
+def disable_command(chat_id, disable):
+    with DISABLE_INSERTION_LOCK:
+        disabled = SESSION.query(Disable).get((str(chat_id), disable))
+
+        if not disabled:
+            DISABLED.setdefault(str(chat_id), set()).add(disable)
+
+            disabled = Disable(str(chat_id), disable)
+            SESSION.add(disabled)
+            SESSION.commit()
+            return True
+
+        SESSION.close()
+        return False
+
+
+def enable_command(chat_id, enable):
+    with DISABLE_INSERTION_LOCK:
+        disabled = SESSION.query(Disable).get((str(chat_id), enable))
+
+        if disabled:
+            if enable in DISABLED.get(str(chat_id)):  # sanity check
                 DISABLED.setdefault(str(chat_id), set()).remove(enable)
 
             SESSION.delete(disabled)
@@ -102,3 +151,43 @@ def __load_disabled_commands():
 
 
 __load_disabled_commands()
+
+            
+            
+            
+
+        
+        
+
+
+
+  
+
+
+
+
+
+
+
+
+
+    
+        
+    
+       
+
+
+
+
+        
+ 
+
+        
+
+
+
+    
+        
+
+
+
